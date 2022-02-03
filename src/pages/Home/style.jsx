@@ -29,6 +29,8 @@ const SHome = styled.section`
       background-color: white;
       border: solid 3px black;
       border-radius: 20%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
       height: 35vh;
       width: auto;
     }
