@@ -23,6 +23,7 @@ const SHome = styled.section`
     flex-direction: wrap;
     justify-content: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
     img {
       background-color: white;
