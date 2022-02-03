@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import SHeader from 'components/Header/style';
 import SNeeds from './style';
 
 export default function Needs() {
@@ -12,6 +13,7 @@ export default function Needs() {
 
   return (
     <>
+      <SHeader />
       <SNeeds>
         <div className="iNeed">
           {needs.map((need) => {

@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import SHeader from 'components/Header/style';
 import SSongs from './style';
 
 export default function Songs() {
@@ -12,6 +13,7 @@ export default function Songs() {
 
   return (
     <>
+      <SHeader />
       <SSongs>
         <div className="thisSong">
           {songs.map((song) => {
