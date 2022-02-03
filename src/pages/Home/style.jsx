@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const SHome = styled.section`
-  font-weight: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: black;
+  /* font-weight: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   .hello {
     img {
       border: solid 2px black;
@@ -12,7 +13,7 @@ const SHome = styled.section`
     }
   }
   .home {
-    height: 110vh;
+    height: auto;
     width: auto;
   }
   .iNeed,
@@ -24,6 +25,7 @@ const SHome = styled.section`
     margin-top: 1rem;
 
     img {
+      background-color: white;
       border: solid 3px black;
       border-radius: 20%;
       height: 35vh;
